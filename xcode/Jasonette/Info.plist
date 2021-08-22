@@ -33,6 +33,8 @@
 	<string>used to access camera api</string>
 	<key>NSContactsUsageDescription</key>
 	<string>used to access contacts api</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>used to access location api</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>used to access location api</string>
 	<key>NSMicrophoneUsageDescription</key>
@@ -41,8 +43,6 @@
 	<string>used to write to photo library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>used to access photo library</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>used to access location api</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Your reason, why you want to track the user</string>
 	<key>UILaunchStoryboardName</key>
