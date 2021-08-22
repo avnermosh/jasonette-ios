@@ -6,7 +6,7 @@
         "body": {
             "background": {
                 "type": "html",
-                "url": "file://overlay_button_on_local_image_via_webcontainer_take2.html",
+                "url": "file://overlay_button_on_local_image_via_webcontainer.html",
                 "action": {
                     "type": "$default"
                 }            

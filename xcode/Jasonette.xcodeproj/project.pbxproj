@@ -8,17 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5EE85B6C1DA45F8F0049EACE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE85B6B1DA45F8F0049EACE /* MapKit.framework */; };
+		85081A3226D30DC200811DE5 /* backgroundImageConstructionSite1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85081A3126D30DC200811DE5 /* backgroundImageConstructionSite1.jpg */; };
 		8540921A26CB9477004AE664 /* col_from_local_files.json in Resources */ = {isa = PBXBuildFile; fileRef = 8540921926CB9477004AE664 /* col_from_local_files.json */; };
 		8540921C26CB94A3004AE664 /* root in Resources */ = {isa = PBXBuildFile; fileRef = 8540921B26CB94A3004AE664 /* root */; };
 		8540922026CCE6FA004AE664 /* overlay_button_on_local_image_via_webcontainer.json in Resources */ = {isa = PBXBuildFile; fileRef = 8540921F26CCE6F9004AE664 /* overlay_button_on_local_image_via_webcontainer.json */; };
 		8540922226CCE714004AE664 /* overlay_button_on_local_image_via_webcontainer.css in Resources */ = {isa = PBXBuildFile; fileRef = 8540922126CCE714004AE664 /* overlay_button_on_local_image_via_webcontainer.css */; };
 		8540922426CCE730004AE664 /* overlay_button_on_local_image_via_webcontainer.html in Resources */ = {isa = PBXBuildFile; fileRef = 8540922326CCE730004AE664 /* overlay_button_on_local_image_via_webcontainer.html */; };
-		8540922626CCE73A004AE664 /* example-word-written-on-wooden-260nw-1765482248.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8540922526CCE73A004AE664 /* example-word-written-on-wooden-260nw-1765482248.jpg */; };
-		85F9B15226CEDFD10027E4B4 /* load_offline_online_via_buttons_via_jason.json in Resources */ = {isa = PBXBuildFile; fileRef = 85F9B15126CEDFD10027E4B4 /* load_offline_online_via_buttons_via_jason.json */; };
-		85F9B15426CF27B70027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.json in Resources */ = {isa = PBXBuildFile; fileRef = 85F9B15326CF27B60027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.json */; };
-		85F9B15726CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.html in Resources */ = {isa = PBXBuildFile; fileRef = 85F9B15526CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.html */; };
-		85F9B15826CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.css in Resources */ = {isa = PBXBuildFile; fileRef = 85F9B15626CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.css */; };
-		85F9B15A26CF28CC0027E4B4 /* backgroundImage2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85F9B15926CF28CC0027E4B4 /* backgroundImage2.jpg */; };
 		ACDAE25BCC06F4D2B1364277 /* Pods_Jasonette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE1A3D4D97BE5A73CB39B96 /* Pods_Jasonette.framework */; };
 		EF07303A22D28B2400973DE1 /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF072F5F22D28B2400973DE1 /* settings.plist */; };
 		EF07303B22D28B2400973DE1 /* com.jasonelle.app.test.webview.json in Resources */ = {isa = PBXBuildFile; fileRef = EF072F6022D28B2400973DE1 /* com.jasonelle.app.test.webview.json */; };
@@ -119,17 +114,12 @@
 		5E3176591D1E400C00D87778 /* Jasonette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jasonette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EE85B6B1DA45F8F0049EACE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5EE85B7A1DA595A20049EACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		85081A3126D30DC200811DE5 /* backgroundImageConstructionSite1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImageConstructionSite1.jpg; sourceTree = "<group>"; };
 		8540921926CB9477004AE664 /* col_from_local_files.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = col_from_local_files.json; sourceTree = "<group>"; };
 		8540921B26CB94A3004AE664 /* root */ = {isa = PBXFileReference; lastKnownFileType = folder; path = root; sourceTree = "<group>"; };
 		8540921F26CCE6F9004AE664 /* overlay_button_on_local_image_via_webcontainer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overlay_button_on_local_image_via_webcontainer.json; sourceTree = "<group>"; };
 		8540922126CCE714004AE664 /* overlay_button_on_local_image_via_webcontainer.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = overlay_button_on_local_image_via_webcontainer.css; sourceTree = "<group>"; };
 		8540922326CCE730004AE664 /* overlay_button_on_local_image_via_webcontainer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = overlay_button_on_local_image_via_webcontainer.html; sourceTree = "<group>"; };
-		8540922526CCE73A004AE664 /* example-word-written-on-wooden-260nw-1765482248.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "example-word-written-on-wooden-260nw-1765482248.jpg"; sourceTree = "<group>"; };
-		85F9B15126CEDFD10027E4B4 /* load_offline_online_via_buttons_via_jason.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = load_offline_online_via_buttons_via_jason.json; sourceTree = "<group>"; };
-		85F9B15326CF27B60027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overlay_button_on_local_image_via_webcontainer_take2.json; sourceTree = "<group>"; };
-		85F9B15526CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = overlay_button_on_local_image_via_webcontainer_take2.html; sourceTree = "<group>"; };
-		85F9B15626CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = overlay_button_on_local_image_via_webcontainer_take2.css; sourceTree = "<group>"; };
-		85F9B15926CF28CC0027E4B4 /* backgroundImage2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundImage2.jpg; sourceTree = "<group>"; };
 		BDE1A3D4D97BE5A73CB39B96 /* Pods_Jasonette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jasonette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB1DF488FABA35A255BC8E4 /* Pods-Jasonette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jasonette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jasonette/Pods-Jasonette.debug.xcconfig"; sourceTree = "<group>"; };
 		EF072F5F22D28B2400973DE1 /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
@@ -363,12 +353,7 @@
 		EF072F5E22D28B2400973DE1 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				85F9B15926CF28CC0027E4B4 /* backgroundImage2.jpg */,
-				85F9B15626CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.css */,
-				85F9B15526CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.html */,
-				85F9B15326CF27B60027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.json */,
-				85F9B15126CEDFD10027E4B4 /* load_offline_online_via_buttons_via_jason.json */,
-				8540922526CCE73A004AE664 /* example-word-written-on-wooden-260nw-1765482248.jpg */,
+				85081A3126D30DC200811DE5 /* backgroundImageConstructionSite1.jpg */,
 				8540922326CCE730004AE664 /* overlay_button_on_local_image_via_webcontainer.html */,
 				8540922126CCE714004AE664 /* overlay_button_on_local_image_via_webcontainer.css */,
 				8540921F26CCE6F9004AE664 /* overlay_button_on_local_image_via_webcontainer.json */,
@@ -1204,12 +1189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF07A1B822D6186100D0D3FF /* README.md in Resources */,
-				85F9B15426CF27B70027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.json in Resources */,
 				EF07A1CD22D6186100D0D3FF /* icon-success@2x.png in Resources */,
 				EF07A1D622D6186100D0D3FF /* preload.json in Resources */,
 				EF07A1CF22D6186100D0D3FF /* icon-success.png in Resources */,
 				EF07A1C622D6186100D0D3FF /* placeholder@2x.png in Resources */,
-				85F9B15726CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.html in Resources */,
 				EF07303B22D28B2400973DE1 /* com.jasonelle.app.test.webview.json in Resources */,
 				8540922426CCE730004AE664 /* overlay_button_on_local_image_via_webcontainer.html in Resources */,
 				EF07A1D322D6186100D0D3FF /* csv.js in Resources */,
@@ -1232,17 +1215,14 @@
 				EF9781C322D9A0810024FDAE /* hello.json in Resources */,
 				EF07A1C722D6186100D0D3FF /* placeholderr@2x.png in Resources */,
 				8540922026CCE6FA004AE664 /* overlay_button_on_local_image_via_webcontainer.json in Resources */,
-				85F9B15226CEDFD10027E4B4 /* load_offline_online_via_buttons_via_jason.json in Resources */,
-				85F9B15A26CF28CC0027E4B4 /* backgroundImage2.jpg in Resources */,
+				85081A3226D30DC200811DE5 /* backgroundImageConstructionSite1.jpg in Resources */,
 				EF82979B22D30A71003ED64B /* jr.sample.json in Resources */,
 				EF07A1D222D6186100D0D3FF /* xhtml.js in Resources */,
 				EF07A1D522D6186100D0D3FF /* error.json in Resources */,
-				85F9B15826CF28120027E4B4 /* overlay_button_on_local_image_via_webcontainer_take2.css in Resources */,
 				EF07303A22D28B2400973DE1 /* settings.plist in Resources */,
 				EF07A1FA22D6186100D0D3FF /* JasonHorizontalSection.xib in Resources */,
 				EF07A1FD22D6186100D0D3FF /* JasonHorizontalSectionItem.xib in Resources */,
 				EF07A1C922D6186100D0D3FF /* icon-error.png in Resources */,
-				8540922626CCE73A004AE664 /* example-word-written-on-wooden-260nw-1765482248.jpg in Resources */,
 				EF07A1CE22D6186100D0D3FF /* icon-error@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

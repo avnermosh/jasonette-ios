@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>url</key>
-	<string>file://overlay_button_on_local_image_via_webcontainer_take2.json</string>
+	<string>file://overlay_button_on_local_image_via_webcontainer.json</string>
 	<key>tracking_enabled</key>
 	<false/>
 	<key>append_nonce_to_url</key>
