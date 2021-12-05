@@ -33,13 +33,19 @@
     left: 50%;
 }
 
-#onlineButton {
+#onlineButton1 {
     background-color: blue;
     position: absolute;
     top: 60%;
     left: 50%;
 }
 
+#onlineButton2 {
+    background-color: blue;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
 .container .btn:hover {
     background-color: black;
 }
