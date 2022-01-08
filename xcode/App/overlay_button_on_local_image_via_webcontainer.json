@@ -1,7 +1,52 @@
 {
     "$jason": {
         "head": {
-            "title": "Web Container Agent Demo"
+            "title": "Web Container Agent Demo",
+            "actions": {
+                "media.permissions": {
+                    "type": "$media.permissions",
+                    "options": {
+                        "types": "all"
+                    },
+                    "success": {
+                        "type": "$util.alert",
+                        "options": {
+                            "title": "Hello",
+                            "description": "{{$jason}}"
+                        }
+                    }
+                },
+                "media.pickerAndCamera": {
+                    "type": "$media.pickerAndCamera",
+                    "options": {
+                        "edit": "true",
+                        "type": "image"
+                    },
+                    "success": {
+                        "type": "$agent.request",
+                        "options": {
+                            "id": "$webcontainer",
+                            "method": "window.savePhoto",
+                            "params": ["{{$jason.data_uri}}"]
+                        }
+                    }
+                },
+                "media.loadZipFileHeaders": {
+                    "type": "$media.pickZipFile",
+                    "options": {
+                        "edit": "true",
+                        "type": "zipFile"
+                    },
+                    "success": {
+                        "type": "$agent.request",
+                        "options": {
+                            "id": "$webcontainer",
+                            "method": "window.callbackLoadZipFileHeaders",
+                            "params": ["{{$jason}}"]
+                        }
+                    }
+                }
+            }
         },
         "body": {
             "background": {
@@ -9,7 +54,7 @@
                 "url": "file://overlay_button_on_local_image_via_webcontainer.html",
                 "action": {
                     "type": "$default"
-                }            
+                }
             }
         }
     }

@@ -77,3 +77,6 @@ $agent.logger.warn = function(...args) {
 $agent.logger.error = function(...args) {
     $agent.log('error', args);
 };
+
+// avner - ensure $agent is in the window global
+window.$agent = $agent;
