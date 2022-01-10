@@ -79,4 +79,5 @@ $agent.logger.error = function(...args) {
 };
 
 // avner - ensure $agent is in the window global
-window.$agent = $agent;
+// window.$agent = $agent;
+window.$agent_jasonette_ios = $agent;

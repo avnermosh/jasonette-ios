@@ -5,6 +5,8 @@
 //  Copyright © 2016 gliechtenstein. All rights reserved.
 //
 #import "JasonMediaAction.h"
+#import "JasonLogger.h"
+
 @implementation JasonMediaAction
 - (void)play {
     NSString * url = self.options[@"url"];
@@ -107,6 +109,23 @@
     }
 
     [self.VC.navigationController presentViewController:picker animated:YES completion:NULL];
+}
+
+- (void)pickZipFile1 {
+    DTLogDebug (@"pickZipFile11111111111111111111111");
+    DTLogDebug (@"Loading Parser Format with Data %@", self.options);
+    
+    // tbd - print the zipFileName
+}
+
+- (void)pickZipFile2 {
+    DTLogDebug (@"pickZipFile222222222222");
+    DTLogDebug (@"Loading Parser Format with Data %@", self.options);
+
+    NSDictionary * result;
+    result = @{ @"file_url": @"str1", @"content_type": @"application/zip" };
+    [[Jason client] success:result];
+    
 }
 
 - (void)picker {
