@@ -137,6 +137,7 @@
     if ([webView.URL.absoluteString isEqualToString:@"about:blank"]) {
         return;
     }
+    DTLogDebug (@"webView.URL %@", webView.URL);
 
     // Inject agent.js into agent context
     NSString * identifier = webView.payload[@"identifier"];
@@ -182,6 +183,7 @@
 }
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+
     NSDictionary * action = webView.payload[@"action"];
 
     if (navigationAction.sourceFrame) {

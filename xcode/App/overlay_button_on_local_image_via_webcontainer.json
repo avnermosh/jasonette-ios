@@ -31,8 +31,8 @@
                         }
                     }
                 },
-                "media.loadZipFileHeaders": {
-                    "type": "$media.pickZipFile",
+                "media.loadZipFileHeaders1": {
+                    "type": "$media.pickZipFile1",
                     "options": {
                         "edit": "true",
                         "type": "zipFile"
@@ -41,7 +41,22 @@
                         "type": "$agent.request",
                         "options": {
                             "id": "$webcontainer",
-                            "method": "window.callbackLoadZipFileHeaders",
+                            "method": "window.callbackLoadZipFileHeaders1",
+                            "params": ["{{$jason}}"]
+                        }
+                    }
+                },
+                "media.loadZipFileHeaders2": {
+                    "type": "$media.pickZipFile2",
+                    "options": {
+                        "filename1": "{{$jason.filename1}}",
+                        "type": "zipFile"
+                    },
+                    "success": {
+                        "type": "$agent.request",
+                        "options": {
+                            "id": "$webcontainer",
+                            "method": "window.callbackLoadZipFileHeaders2",
                             "params": ["{{$jason}}"]
                         }
                     }
