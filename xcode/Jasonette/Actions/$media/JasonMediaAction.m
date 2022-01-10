@@ -122,6 +122,9 @@
     DTLogDebug (@"pickZipFile222222222222");
     DTLogDebug (@"Loading Parser Format with Data %@", self.options);
 
+    JasonZipPicker * zipPicker = [[JasonZipPicker alloc] init];
+    zipPicker.sourceType = UIDocumentPickerViewController;
+
     NSDictionary * result;
     result = @{ @"file_url": @"str1", @"content_type": @"application/zip" };
     [[Jason client] success:result];
